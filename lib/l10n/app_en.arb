@@ -1,0 +1,114 @@
+{
+    "yes": "Yes",
+    "no": "No",
+    "wallet": "Wallet",
+    "myNFTs": "My NFTs",
+    "settings": "Settings",
+    "myWallet": "My Wallet",
+    "yourWallet": "Your Wallet",
+    "currency": "Currency",
+    "pushNotifications": "Push Notifications",
+    "allowPushNotifications": "Allow Push Notifications",
+    "languageSettings": "Language Settings",
+    "emailus": "Email us",
+    "about": "About",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "reportOrFeedback": "Report or Feedback",
+    "version": "Version",
+    "reportAnyIssuesTo": "Report any issues to support@shibawallet.pro, and we'll handle it as soon as possible.",
+    "writeAnyIdeasOrQuestionsDownTo": "Write any ideas or questions down to support@shibawallet.pro, and we'll contact you as soon as possible.",
+    "copyEmailAddress": "Copy email address",
+    "copiedEmailAddressSuccess": "Copied Email Address Success!",
+    "sendEmailToUs": "Send email to us",
+    "yourAddress": "Your address",
+    "yourNFTArtsWillBeShownHere": "Your NFT Arts will be shown here",
+    "send": "Send",
+    "receive": "Receive",
+    "addCoin": "Add Coin",
+    "switchWallet": "Switch Wallet",
+    "deleteActionConfirms": "Delete action confirms",
+    "are_you_sure_you_want_to_delete_symbol": "Are you sure you want to delete {symbol}? It'll be only deleted from the list, the {symbol} asset is always belonging to you!",
+    "@are_you_sure_you_want_to_delete_symbol": {
+        "description": "",
+        "placeholders": {
+            "symbol": {
+                "type": "String"
+            }
+        }
+    },
+    "transfer_Tokens": "Transfer Tokens",
+    "to_Address": "To Address",
+    "click_to_paste": "Click to paste",
+    "input_the_chainShortName_address_of_the_receiver":  "Input the {chainShortName} address of the receiver",
+    "@input_the_chainShortName_address_of_the_receiver": { 
+        "placeholders": {
+            "chainShortName": {
+                "type": "String"
+            }
+        }
+    },
+    "transfers_amount": "Transfers amount",
+    "token_Select": "Token Select",
+    "please_Choose_One": "Please Choose One",
+    "confirm": "Confirm",
+    "please_choose_one_kind_of_below_coins_for_transfering": "Please choose one kind of below coins for transfering~",
+    "your_tokenSymbol_balance_is_not_enough_to_transfer": "Your {tokenSymbol} balance is not enough to transfer!",
+    "@your_tokenSymbol_balance_is_not_enough_to_transfer": { 
+        "placeholders": {
+            "tokenSymbol": {
+                "type": "String"
+            }
+        }
+    },
+    "invalid_receiver_address": "Invalid receiver address!",
+    "invalid_amount_input": "Invalid amount input!",
+    "wait_for_a_moment_please": "Wait for a moment, please...",
+    "receive_chainShortName_coins": "Receive {chainShortName} coins",
+    "@receive_chainShortName_coins": { 
+        "placeholders": {
+            "chainShortName": {
+                "type": "String"
+            }
+        }
+    },
+    "pay_To_Me": "Pay To Me",
+    "scan_the_QR_Code_to_pay": "Scan the QR Code to pay",
+    "receive_Address": "Receive Address",
+    "more_info_on_official_website_url": "More info on {officialWebsiteUrl}",
+    "@more_info_on_official_website_url": { 
+        "placeholders": {
+            "officialWebsiteUrl": {
+                "type": "String"
+            }
+        }
+    },
+    "address_copied": "Address copied",
+    "add_Asset": "Add Asset",
+    "sEARCH": "SEARCH",
+    "cUSTOM_TOKEN": "CUSTOM TOKEN",
+    "contract_Addr": "Contract Addr: ",
+    "token_Address": "Token Address",
+    "please_paste_the_chainShortName_Contract_Address": "Please paste the {chainShortName} Contract Address",
+    "@please_paste_the_chainShortName_Contract_Address": { 
+        "placeholders": {
+            "chainShortName": {
+                "type": "String"
+            }
+        }
+    },
+    "token_Symbol": "Token Symbol",
+    "token_of_Precision": "Token of Precision",
+    "your_Balance": "Your Balance",
+    "aDD_TOKEN": "ADD TOKEN",
+    "searching_please_wait": "Searching, please wait...",
+    "contract_Address_cannot_be_null": "Contract Address cannot be null!",
+    "adding_please_wait": "Adding, please wait...",
+    "select_Network_Type": "Select Network Type",
+    "multichain_NFT_wallet_of_metaverse": "Multichain NFT wallet of metaverse",
+    "private_and_secure": "Private and secure",
+    "supports_Ethereum_BSC_Arbitrum_Polygon": "Supports Ethereum, BSC, Arbitrum, Polygon",
+    "private_keys_never_leave_your_device": "Private keys never leave your device",
+    "create_a_new_wallet": "Create a new wallet",
+    "import_using_Secret_Recovery_Phrase": "Import using Secret Recovery Phrase"
+}

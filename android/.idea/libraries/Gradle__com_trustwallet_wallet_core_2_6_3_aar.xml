@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.trustwallet:wallet-core:2.6.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e61a0697a02acc9526e40a73f0abfef/wallet-core-2.6.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e61a0697a02acc9526e40a73f0abfef/wallet-core-2.6.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e61a0697a02acc9526e40a73f0abfef/wallet-core-2.6.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.trustwallet/wallet-core/2.6.3/70d8b9a0d9d4823c162026800da6188ad90b7b74/wallet-core-2.6.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

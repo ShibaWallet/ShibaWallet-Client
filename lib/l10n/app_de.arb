@@ -1,0 +1,114 @@
+{
+    "yes": "Jawohl",
+    "no": "Nein",
+    "wallet": "Brieftasche",
+    "myNFTs": "Mein NFTs",
+    "settings": "Einstellungen",
+    "myWallet": "Mein Geldbeutel",
+    "yourWallet": "Deine Geldbörse",
+    "currency": "Währung",
+    "pushNotifications": "Mitteilungen",
+    "allowPushNotifications": "Push-Benachrichtigungen zulassen",
+    "languageSettings": "Spracheinstellungen",
+    "emailus": "E-Mail an uns",
+    "about": "Über",
+    "privacyPolicy": "Datenschutz-Bestimmungen",
+    "termsOfService": "Nutzungsbedingungen",
+    "reportOrFeedback": "Bericht oder Feedback",
+    "version": "Ausführung",
+    "reportAnyIssuesTo": "Melden Sie Probleme an support@shibawallet.pro und wir werden uns so schnell wie möglich darum kümmern.",
+    "writeAnyIdeasOrQuestionsDownTo": "Schreiben Sie Ihre Ideen oder Fragen an support@shibawallet.pro, und wir werden Sie so schnell wie möglich kontaktieren.",
+    "copyEmailAddress": "E-Mail-Adresse kopieren",
+    "copiedEmailAddressSuccess": "Erfolgreich kopierte E-Mail-Adresse!",
+    "sendEmailToUs": "Senden Sie uns eine E-Mail",
+    "yourAddress": "Deine Adresse",
+    "yourNFTArtsWillBeShownHere": "Ihre NFT Arts werden hier angezeigt",
+    "send": "Überweisen",
+    "receive": "Erhalten",
+    "addCoin": "Füge Münzen hinzu",
+    "switchWallet": "Geldbörse wechseln",
+    "deleteActionConfirms": "Löschaktion bestätigt",
+    "are_you_sure_you_want_to_delete_symbol": "Möchten Sie {symbol} wirklich löschen? Es wird nur aus der Liste gelöscht, das Asset {symbol} gehört immer Ihnen!",
+    "@are_you_sure_you_want_to_delete_symbol": {
+      "description": "",
+      "placeholders": {
+          "symbol": {
+              "type": "String"
+          }
+      }
+    },
+    "transfer_Tokens": "Münzen senden",
+    "to_Address": "Zur Wallet-Adresse",
+    "click_to_paste": "Zum Einfügen klicken",
+    "input_the_chainShortName_address_of_the_receiver":  "Geben Sie die {chainShortName}-Adresse des Empfängers ein",
+    "@input_the_chainShortName_address_of_the_receiver": { 
+        "placeholders": {
+            "chainShortName": {
+                "type": "String"
+            }
+        }
+    },
+    "transfers_amount": "Überweisungsbetrag",
+    "token_Select": "Tokenauswahl",
+    "please_Choose_One": "Bitte wähle eines",
+    "confirm": "Bestätigen Sie",
+    "please_choose_one_kind_of_below_coins_for_transfering": "Bitte wählen Sie eine der folgenden Münzen zum Übertragen aus ~",
+    "your_tokenSymbol_balance_is_not_enough_to_transfer": "Ihr {tokenSymbol}-Guthaben reicht nicht für eine Überweisung!",
+    "@your_tokenSymbol_balance_is_not_enough_to_transfer": { 
+        "placeholders": {
+            "tokenSymbol": {
+                "type": "String"
+            }
+        }
+    },
+    "invalid_receiver_address": "Ungültige Empfängeradresse!",
+    "invalid_amount_input": "Ungültige Betragseingabe!",
+    "wait_for_a_moment_please": "Warte einen Moment, bitte...",
+    "receive_chainShortName_coins": "Erhalte {chainShortName}-Münzen",
+    "@receive_chainShortName_coins": { 
+        "placeholders": {
+            "chainShortName": {
+                "type": "String"
+            }
+        }
+    },
+    "pay_To_Me": "Bezahle an mich",
+    "scan_the_QR_Code_to_pay": "Scannen Sie den QR-Code, um zu bezahlen",
+    "receive_Address": "Adresse empfangen",
+    "more_info_on_official_website_url": "Weitere Informationen zu {officialWebsiteUrl}",
+    "@more_info_on_official_website_url": { 
+        "placeholders": {
+            "officialWebsiteUrl": {
+                "type": "String"
+            }
+        }
+    },
+    "address_copied": "Adresse kopiert",
+    "add_Asset": "Asset hinzufügen",
+    "sEARCH": "SUCHE",
+    "cUSTOM_TOKEN": "BENUTZERDEFINIERTES TOKEN",
+    "contract_Addr": "Vertragsadresse: ",
+    "token_Address": "Token-Adresse",
+    "please_paste_the_chainShortName_Contract_Address": "Bitte fügen Sie die {chainShortName} Vertragsadresse ein",
+    "@please_paste_the_chainShortName_Contract_Address": { 
+      "placeholders": {
+          "chainShortName": {
+              "type": "String"
+          }
+      }
+    },
+    "token_Symbol": "Token-Symbol",
+    "token_of_Precision": "Zeichen der Präzision",
+    "your_Balance": "Dein Kontostand",
+    "aDD_TOKEN": "TOKEN HINZUFÜGEN",
+    "searching_please_wait": "Suche, bitte warten...",
+    "contract_Address_cannot_be_null": "Vertragsadresse darf nicht null sein!",
+    "adding_please_wait": "Wird hinzugefügt, bitte warten...",
+    "select_Network_Type": "Netzwerktyp auswählen",
+    "multichain_NFT_wallet_of_metaverse": "Multichain NFT wallet von metaverse",
+    "private_and_secure": "Privat und sicher",
+    "supports_Ethereum_BSC_Arbitrum_Polygon": "Unterstützt Ethereum, BSC, Arbitrum, Polygon",
+    "private_keys_never_leave_your_device": "Private Schlüssel verlassen niemals Ihr Gerät",
+    "create_a_new_wallet": "Erstellen Sie eine neue Brieftasche",
+    "import_using_Secret_Recovery_Phrase": "Importieren mit Mnemonik"
+}

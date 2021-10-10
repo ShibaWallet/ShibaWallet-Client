@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.umeng.umsdk:apm:1.4.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/jars/libs/crashsdk-3.3.0.0-umeng.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/jars/libs/pasdk-2.1.154.umeng.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/jars/libs/memsdk-0.0.1.umeng.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/jars/libs/launchsdk-0.0.2.umeng.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0c4ff3f3d13a0e38e20a2069b5d6ba7/jetified-apm-1.4.2/jars/libs/efs-base-1.3.6.umeng.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
