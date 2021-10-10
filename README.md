@@ -1,6 +1,6 @@
-# truthywallet
+# ShibaWallet
 
-A new Flutter project.
+A new Flutter project for ShibaWallet app, official website: https://shibawallet.pro
 
 ## Getting Started
 
