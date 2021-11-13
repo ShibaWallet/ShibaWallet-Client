@@ -76,7 +76,6 @@ class TrustWalletFlutterMethodChannelHandler private constructor() {
         val address = wallet.getAddressForCoin(ctype)
         val privateKeyObj = wallet.getKeyForCoin(ctype)
         val privateKeyBase64 = base64Encode(privateKeyObj.data())
-        print("privateKeyBase64=" + privateKeyBase64)
         return TrustWalletResult(true, address, wallet.mnemonic(), privateKeyBase64)
     }
 
