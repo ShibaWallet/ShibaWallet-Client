@@ -5,10 +5,12 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:truthywallet/Core/Database/TYWalletDB.dart';
 import 'package:truthywallet/Core/Database/TYWalletModel.dart';
 import 'package:truthywallet/Core/Network/TYHttpRequester.dart';
+import 'package:truthywallet/Core/Wallet/WalletCoinType.dart';
 import 'package:truthywallet/nft_assets/TYNFTAssetDetailsPage.dart';
 import 'package:truthywallet/nft_assets/models/TYNFTAssetItemModel.dart';
 import 'package:truthywallet/utility/NotificationCenter.dart';
@@ -56,11 +58,13 @@ class TYNFTAssetsPageState extends State<TYNFTAssetsPage> {
         // 查询用户选中的钱包地址
         final addr0 = _selectedModel.walletAddress;
         final addr1 = await UserDefaults.getString(kCurrentSelectedWalletKey);
-        final selectedWalletChainId = await UserDefaults.getInt(kCurrentSelectedWalletOnChainIdKey);
+        final selectedWalletChainId =
+            await UserDefaults.getInt(kCurrentSelectedWalletOnChainIdKey);
         if (addr1 != addr0) {
           // 证明用户切换了钱包地址，则去刷新数据
           setState(() {
-            final l = _walletAddressList.where((e) => e.walletAddress == addr1 && e.chainId == selectedWalletChainId);
+            final l = _walletAddressList.where((e) =>
+                e.walletAddress == addr1 && e.chainId == selectedWalletChainId);
             if (l.length > 0) {
               _selectedModel = l.first;
             }
@@ -226,6 +230,7 @@ class TYNFTAssetsPageState extends State<TYNFTAssetsPage> {
       child: Container(
         width: 200,
         height: 400,
+        // color: Colors.red,
         child: Column(
           children: [
             Image.asset("assets/images/empty_nftart_product.png"),
@@ -250,11 +255,24 @@ class TYNFTAssetsPageState extends State<TYNFTAssetsPage> {
                 style: TextStyle(
                   color: PublicColors.grayTitle,
                   fontSize: 14,
-                  fontWeight: FontWeight.w500, 
+                  fontWeight: FontWeight.w500,
                 ),
                 textAlign: TextAlign.center,
               ),
             ),
+            Spacer(),
+            // Container(
+            //   height: 38,
+            //   decoration: BoxDecoration(borderRadius: BorderRadius.circular(6), color: PublicColors.mainBlue,),
+            //   child: TextButton.icon(
+            //     onPressed: () => askForMyNFT(),
+            //     icon: Icon(Icons.card_giftcard, color: PublicColors.pureWhite,),
+            //     label: Text(
+            //       AppLocalizations.of(context)!.ask_for_my_NFT,
+            //       style: TextStyle(color: PublicColors.pureWhite, fontSize: 15),
+            //     ),
+            //   ),
+            // ),
           ],
         ),
       ),
@@ -271,10 +289,12 @@ class TYNFTAssetsPageState extends State<TYNFTAssetsPage> {
     // 2.查询用户选中的钱包地址
     final selectedWalletAddress =
         await UserDefaults.getString(kCurrentSelectedWalletKey);
-    final selectedWalletChainId = await UserDefaults.getInt(kCurrentSelectedWalletOnChainIdKey);
+    final selectedWalletChainId =
+        await UserDefaults.getInt(kCurrentSelectedWalletOnChainIdKey);
     if (walletAddressList.length > 0 && selectedWalletAddress != null) {
-      _selectedModel = walletAddressList
-          .firstWhere((e) => e.walletAddress == selectedWalletAddress && e.chainId == selectedWalletChainId);
+      _selectedModel = walletAddressList.firstWhere((e) =>
+          e.walletAddress == selectedWalletAddress &&
+          e.chainId == selectedWalletChainId);
     }
 
     final walletAddress = _selectedModel.walletAddress;
@@ -336,6 +356,19 @@ class TYNFTAssetsPageState extends State<TYNFTAssetsPage> {
     setState(() {});
     if (_showAsGridView) {
     } else {}
+  }
+  
+  void askForMyNFT() {
+    EasyLoading.show(status: "Requesting to OpenSea....", maskType: EasyLoadingMaskType.black, dismissOnTap: false);
+    Future.delayed(Duration(seconds: 1), () {
+      EasyLoading.dismiss();  
+      if (_selectedModel.chainId != WalletCoinType.PolygonMainnet) {
+        ToastUtil.show(message: "Oops! Switch your current wallet to Polygon network please", seconds: 2);
+        return;
+      }
+    });
+    // EasyLoading.show(status: "Request to OpenSea....", maskType: EasyLoadingMaskType.black, dismissOnTap: false);
+      
   }
 
   String _decryptWalletAddress(String addr) {

@@ -209,9 +209,4 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-
-/*
-Android打包混淆命令
-flutter build apk --obfuscate --split-debug-info=build/app/outputs/debug-info
-flutter build appbundle --obfuscate --split-debug-info=build/app/outputs/debug-info
-*/
+ 
